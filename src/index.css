@@ -29,7 +29,8 @@
 
 
 body{
-  background-color: var(--bg);
+  background-color: #73a8aa;
+
 }
 .nav-links a{
 color: var(--color-accent);
@@ -63,4 +64,37 @@ position: relative;
   left: 50%;
   transform: translateX(-50%);
   transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media screen and (max-width: 795px) {
+.search-section
+  {
+    width: 80%;
+  }
+}
+.search-section{
+  width: 70%;
+}
+
+.all-movies{
+  display: grid;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card{
+  padding: 10px;
+  background-color: #a2c5c6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card img{
+  border-radius: 10px;
 }
