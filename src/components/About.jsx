@@ -4,7 +4,7 @@ function About() {
   return (
    <>
    <div className='flex flex-col items-center bg-gradient-to-r from-indigo-700 via-purple-600 to-blue-500 p-8'>
-     <p className='text-2xl font-semibold text-center mt-5'>Sometimes it's better to <span className='text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-400 to-sky-500'>React</span> without reaction</p>
+     <p className='text-2xl font-semibold text-center mt-5'>"Sometimes it's better to <span className='text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-400 to-sky-500'>React</span> without reaction."</p>
    <div>
      <div className="about-image flex flex-col items-center justify-center mt-5 p-5" >
         <img className='w-md border rounded-2xl cursor-pointer transition-opacity' src="./about.jpeg " alt="" /> 

@@ -48,22 +48,22 @@ position: relative;
   border-radius: 50%;
   box-shadow: 0 0 10px var(--nav-bg);
 }
-.nav-links a:hover{
-  color: var(--muted);}
+/* .nav-links a:hover{
+  color: #447b48;} */
   .nav-links a:hover::after{width: 100%;}
 .nav-links a::after{
   content: "";
   position: absolute;
   width: 0px;
   height: 3px;
-  background-color: #2b2b2b;
+  background-color: #93c064;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .nav-links a.active {
-  color: orange;
+  color: #447b48;
 }
 
 .nav-links a.active::after {
