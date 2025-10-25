@@ -48,7 +48,7 @@ function Home() {
     <>
     <main className='flex flex-col items-center justify-center mt-6'>
         <div className="w-full flex flex-col items-center justify-center">
-            <h2 className='font-mono text-white text-center mt-3 text-3xl'>Welcome to React <span className='text-gradient font-bold'>Routing</span> Project</h2>
+            <h2 className='font-mono text-white text-center mt-3 text-3xl'>Search and Discover <span className='text-gradient font-bold'>Movies</span></h2>
             <div className="hero-image">
               <img src="./hero.png" alt="" />
             </div>

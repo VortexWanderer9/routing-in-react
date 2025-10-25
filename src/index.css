@@ -20,13 +20,10 @@
   --dec: var(--color-accent);        /* Decorative / buttons */
 }
 .text-gradient {
-  background: linear-gradient(90deg, #9575cd, #b39ddb, #93c064);
+  background: linear-gradient(90deg, #283593, #5c6bc0, #b39ddb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
-
 
 body{
   background-color: #73a8aa;
@@ -97,4 +94,18 @@ position: relative;
 
 .card img{
   border-radius: 10px;
+}
+form input{
+  border: 1px solid #1976d2;
+  padding: 10px 20px;
+  outline: none;
+}
+form label{
+  font-size: 20px;
+  font-weight: 600;
+}
+form textarea {
+  border: 1px solid #5c6bc0;
+  border-radius: 5px;
+  padding: 10px 20px;
 }

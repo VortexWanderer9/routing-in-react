@@ -8,7 +8,7 @@ function Footer() {
       <img className='cursor-pointer' src="./panther.svg" alt="" />
     </div>
     <div className="links flex justify-around items-center">
-      <div className="social-links flex flex-col">
+      <div className="social-links flex flex-col"> 
         <span className="font-bold">Social Links</span>
       <a href="#">YouTube</a>
       <a href="#">GitHub</a>
