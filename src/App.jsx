@@ -5,15 +5,18 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import About from './components/About'
-import Contract from './components/Contract'
+import Contact from './components/Contact'
+import { Outlet } from 'react-router-dom'
 function App() {
   return (
   <>
-  <NavBar />
+    <NavBar />
   {/* <Home /> */}
   {/* <About /> */}
-  <Contract />
+  {/* <Contract /> */}
+  <Outlet />
   <Footer />
+
   </>
   )
 }

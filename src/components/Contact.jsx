@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Contract() {
+function Contact() {
   return (
    <>
-  <div class="bg-gradient-to-r from-sky-100 via-cyan-100 to-purple-200 p-8">
+  <div className="bg-gradient-to-r from-sky-100 via-cyan-100 to-purple-200 p-8">
  <h1
-  class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
          font-extrabold text-center 
          bg-gradient-to-r from-purple-500 via-indigo-400 to-sky-500 
          bg-clip-text text-transparent">
@@ -41,4 +41,4 @@ function Contract() {
   )
 }
 
-export default Contract
+export default Contact

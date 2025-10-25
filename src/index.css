@@ -62,7 +62,13 @@ position: relative;
   transform: translateX(-50%);
   transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+.nav-links a.active {
+  color: orange;
+}
 
+.nav-links a.active::after {
+  width: 100%;
+}
 @media screen and (max-width: 795px) {
 .search-section
   {
